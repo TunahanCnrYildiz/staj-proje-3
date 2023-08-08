@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/front/css/5.3.0_bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/front/css/fontawesome.v6.4.0_css_all.css">
+  <link rel="stylesheet" href="assets/front/css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/front/css/style.css">
+  <title>Veriweb</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <a title="Veriweb" href="index.html">
+            <img src="assets/front/images/logo.png" alt="Veriweb" class="logo">
+          </a>
+        </div>
+        <div class="col-md-6 d-flex justify-content-end align-items-center">
+          <span><i class="fa-solid fa-envelope-open-text header-top-icon-1"></i>info@yourname.com</span>
+          <span><i class="fa-solid fa-headphones header-top-icon-2"></i>+1 (888) 0000</span>
+        </div>
+      </div>
+    </div>
+    <div id="fdeco">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <nav class="menu">
+              <ul class="menu-list">
+                <li class="menu-list-item"><a href="index.html">HOME</a></li>
+                <li class="menu-list-item"><a href="about.html">ABOUT</a></li>
+                <li class="menu-list-item"><a href="services.html">SERVICES</a></li>
+                <li class="dropdown text-center menu-list-item">
+                  <a href="#">PROJECTS</a>
+                  <div class="menu-dropdown-item">
+                  <ul class="menu-dropdown-bg">
+                    <li><a href="meet.html">meet</a></li>
+                    <li><a href="project.html">project</a></li>
+                    <li><a href="projects-details.html">projects-details</a></li>
+                  </ul>
+                </div>
+                </li>
+                <li class="dropdown text-center menu-list-item">
+                  <a href="#">BLOG</a>
+                  <div class="menu-dropdown-item">
+                  <ul class="menu-dropdown-bg">
+                    <li><a href="blog-1.html">Blog-1</a></li>
+                    <li><a href="blog-2.html">Blog-2</a></li>
+                    <li><a href="blog-3.html">Blog-3</a></li>
+                    <li><a href="blog-4.html">Blog-4</a></li>
+                    <li><a href="blog-5.html">Blog-5</a></li>
+                  </ul>
+                </div>
+                </li>
+                <li class="menu-list-item"><a href="faq.html">FAQ</a></li>
+                <li class="menu-list-item"><a href="eliments.html">ELIMENTS</a></li>
+                <li class="menu-list-item"><a href="shop.html">SHOP</a></li>
+                <li class="menu-list-item"><a href="contact-us.html">CONTACT US</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-3 text-end d-flex justify-content-end align-items-center">
+            <div class="sm-button-style d-flex justify-content-center align-items-center">
+              <a href="#" role="button"><i class="fa-brands fa-google sm-icons"></i></a>
+            </div>
+            <div class="sm-button-style d-flex justify-content-center align-items-center">
+              <a href="#" role="button"><i class="fa-brands fa-twitter sm-icons"></i></a>
+            </div>
+            <div class="sm-button-style d-flex justify-content-center align-items-center">
+              <a href="#" role="button"><i class="fa-brands fa-linkedin-in sm-icons"></i></a>
+            </div>
+            <div class="sm-button-style d-flex justify-content-center align-items-center">
+              <a href="#" role="button"><i class="fa-brands fa-facebook-f sm-icons"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <div class="services-header d-flex flex-column justify-content-center align-items-center text-light">
+        <h2>PROJECTS LIST</h2>
+        <p><strong>A BIG OPPERTUNITY FOR YOUR BUSINESS GROWTH</strong></p>
+    </div>
+    <div class="container">
+        <div class="row c-space-top">
+            <div class="col-md-12">
+                <div class="d-flex justify-content-center align-items-center">
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active projects-search-filter" id="pills-all-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab"
+                                aria-controls="pills-all" aria-selected="true">ALL</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link projects-search-filter" id="pills-lansman-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-lansman" type="button" role="tab" aria-controls="pills-lansman"
+                                aria-selected="false">LANSMAN</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link projects-search-filter" id="pills-organization-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-organization" type="button" role="tab"
+                                aria-controls="pills-organization" aria-selected="false">ORGANIZATION</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link projects-search-filter" id="pills-research-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-research" type="button" role="tab"
+                                aria-controls="pills-research" aria-selected="false">RESEARCH</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link projects-search-filter" id="pills-seminar-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-seminar" type="button" role="tab" aria-controls="pills-seminar"
+                                aria-selected="false">SEMINAR</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link projects-search-filter" id="pills-training-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-training" type="button" role="tab"
+                                aria-controls="pills-training" aria-selected="false">TRAINING</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <hr width="50%">
+        </div>
+    </div>
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+            tabindex="0">
+            <div class="container c-space-top">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc">
+                                <h3>BANK STAFF TRAINING</h3>
+                                <p><i>Training</i></p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum ea
+                                    voluptate voluptas. Eum obcaecati dolorum molestias illo nulla!</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column justify-content-between ">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">SCHOOL BUILDING</span>
+                                        <p class="m-0"><i>Building</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">RESEARCH & DEVELOPMENT</span>
+                                        <p class="m-0"><i>Development</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">PLANING A PROJECT</span>
+                                        <p class="m-0"><i>Planing</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">SCHOOL BUILDING</span>
+                                        <p class="m-0"><i>Building</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-md-6 d-flex flex-column justify-content-between ">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">SCHOOL BUILDING</span>
+                                        <p class="m-0"><i>Building</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">RESEARCH & DEVELOPMENT</span>
+                                        <p class="m-0"><i>Development</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">PLANING A PROJECT</span>
+                                        <p class="m-0"><i>Planing</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">SCHOOL BUILDING</span>
+                                        <p class="m-0"><i>Building</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc">
+                                <h3>BANK STAFF TRAINING</h3>
+                                <p><i>Training</i></p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum ea
+                                    voluptate voluptas. Eum obcaecati dolorum molestias illo nulla!</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc">
+                                <h3>BANK STAFF TRAINING</h3>
+                                <p><i>Training</i></p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum ea
+                                    voluptate voluptas. Eum obcaecati dolorum molestias illo nulla!</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column justify-content-between ">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">SCHOOL BUILDING</span>
+                                        <p class="m-0"><i>Building</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">RESEARCH & DEVELOPMENT</span>
+                                        <p class="m-0"><i>Development</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">PLANING A PROJECT</span>
+                                        <p class="m-0"><i>Planing</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">SCHOOL BUILDING</span>
+                                        <p class="m-0"><i>Building</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-lansman" role="tabpanel" aria-labelledby="pills-lansman-tab" tabindex="0">
+            <div class="container c-space-top">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc">
+                                <h3>BANK STAFF TRAINING</h3>
+                                <p><i>Training</i></p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum ea
+                                    voluptate voluptas. Eum obcaecati dolorum molestias illo nulla!</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex flex-column justify-content-between ">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">SCHOOL BUILDING</span>
+                                        <p class="m-0"><i>Building</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">RESEARCH & DEVELOPMENT</span>
+                                        <p class="m-0"><i>Development</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">PLANING A PROJECT</span>
+                                        <p class="m-0"><i>Planing</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">SCHOOL BUILDING</span>
+                                        <p class="m-0"><i>Building</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-organization" role="tabpanel" aria-labelledby="pills-organization-tab"
+            tabindex="0">
+            <div class="container c-space-top">
+                <div class="row">
+                    <div class="col-md-6 d-flex flex-column justify-content-between ">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">SCHOOL BUILDING</span>
+                                        <p class="m-0"><i>Building</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">RESEARCH & DEVELOPMENT</span>
+                                        <p class="m-0"><i>Development</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">PLANING A PROJECT</span>
+                                        <p class="m-0"><i>Planing</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="project">
+                                    <img class="project-img" src="assets/front/images/index2.jpg">
+                                    <div class="project-desc project-desc-m">
+                                        <span class="project-desc-sp">SCHOOL BUILDING</span>
+                                        <p class="m-0"><i>Building</i></p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et
+                                            dolorum ea</p>
+                                    </div>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc">
+                                <h3>BANK STAFF TRAINING</h3>
+                                <p><i>Training</i></p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum ea
+                                    voluptate voluptas. Eum obcaecati dolorum molestias illo nulla!</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-research" role="tabpanel" aria-labelledby="pills-research-tab"
+            tabindex="0">
+            <div class="container c-space-top">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc project-desc-m">
+                                <span class="project-desc-sp">RESEARCH & DEVELOPMENT</span>
+                                <p class="m-0"><i>Development</i></p>
+                                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum
+                                    ea</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc project-desc-m">
+                                <span class="project-desc-sp">RESEARCH & DEVELOPMENT</span>
+                                <p class="m-0"><i>Development</i></p>
+                                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum
+                                    ea</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc project-desc-m">
+                                <span class="project-desc-sp">RESEARCH & DEVELOPMENT</span>
+                                <p class="m-0"><i>Development</i></p>
+                                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum
+                                    ea</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc project-desc-m">
+                                <span class="project-desc-sp">RESEARCH & DEVELOPMENT</span>
+                                <p class="m-0"><i>Development</i></p>
+                                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum
+                                    ea</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-3">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc project-desc-m">
+                                <span class="project-desc-sp">RESEARCH & DEVELOPMENT</span>
+                                <p class="m-0"><i>Development</i></p>
+                                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum
+                                    ea</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc project-desc-m">
+                                <span class="project-desc-sp">RESEARCH & DEVELOPMENT</span>
+                                <p class="m-0"><i>Development</i></p>
+                                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum
+                                    ea</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc project-desc-m">
+                                <span class="project-desc-sp">RESEARCH & DEVELOPMENT</span>
+                                <p class="m-0"><i>Development</i></p>
+                                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum
+                                    ea</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc project-desc-m">
+                                <span class="project-desc-sp">RESEARCH & DEVELOPMENT</span>
+                                <p class="m-0"><i>Development</i></p>
+                                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum
+                                    ea</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-seminar" role="tabpanel" aria-labelledby="pills-seminar-tab" tabindex="0">
+            <div class="container" style="margin-top: 4rem;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc">
+                                <h3>BANK STAFF TRAINING</h3>
+                                <p><i>Training</i></p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum ea
+                                    voluptate
+                                    voluptas. Eum obcaecati dolorum molestias illo nulla!</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc">
+                                <h3>BANK STAFF TRAINING</h3>
+                                <p><i>Training</i></p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum ea
+                                    voluptate
+                                    voluptas. Eum obcaecati dolorum molestias illo nulla!</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-training" role="tabpanel" aria-labelledby="pills-training-tab"
+            tabindex="0">
+            <div class="container c-space-top">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc">
+                                <h3>BANK STAFF TRAINING</h3>
+                                <p><i>Training</i></p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum ea
+                                    voluptate
+                                    voluptas. Eum obcaecati dolorum molestias illo nulla!</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc">
+                                <h3>BANK STAFF TRAINING</h3>
+                                <p><i>Training</i></p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum ea
+                                    voluptate
+                                    voluptas. Eum obcaecati dolorum molestias illo nulla!</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc">
+                                <h3>BANK STAFF TRAINING</h3>
+                                <p><i>Training</i></p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum ea
+                                    voluptate
+                                    voluptas. Eum obcaecati dolorum molestias illo nulla!</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="project">
+                            <img class="project-img" src="assets/front/images/index2.jpg">
+                            <div class="project-desc">
+                                <h3>BANK STAFF TRAINING</h3>
+                                <p><i>Training</i></p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et dolorum ea
+                                    voluptate
+                                    voluptas. Eum obcaecati dolorum molestias illo nulla!</p>
+                            </div>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-bg">
+          <div class="container text-center">
+            <div class="row c-space-top">
+              <div class="col-md-12">
+                <label for="subnews" class="sub-news">SUBSCRIBE NEWSLETTER
+                  <input type="email" class="form-control form-control-lg mt-4 p-3 footer-ph sn-input" id="subnews"
+                    placeholder="Enter your Email" size="50%" required>
+                  <button class="submit-footer" type="submit"><span>SUBMIT</span></button>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bg-2">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 footer-title">
+                <p class="h5">NAVIGATION</p>
+              </div>
+              <div class="col-md-3 footer-title">
+                <p class="h5">CONTACT US</p>
+              </div>
+              <div class="col-md-3 footer-title">
+                <p class="h5">FOLLOW US</p>
+              </div>
+            </div>
+            <div class="row justify-content-between footer-navigation">
+              <div class="col-md-2 footer-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+              </div>
+              <div class="col-md-2 footer-content">
+                <a href="faq.html">Faq</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Team</a>
+              </div>
+              <div class="col-md-2 footer-content">
+                <a href="#">Career</a>
+                <a href="#">Gallery</a>
+                <a href="contact-us.html">Contact Us</a>
+              </div>
+              <div class="col-3 footer-content">
+                <p>NEW YORK. UNITED STATES</p>
+                <p>Email info@veriweb.com.tr</p>
+                <p>Phone 0092-344-634374</p>
+              </div>
+              <div class="col-3 footer-content">
+                <div class="d-flex">
+                  <a href="#" role="button">
+                    <i class="fa-brands fa-facebook-square brands-2 facebook-2"></i>
+                  </a>
+                  <a href="#" role="button">
+                    <i class="fa-brands fa-twitter brands-2 twitter-2"></i>
+                  </a>
+                  <a href="#" role="button">
+                    <i class="fa-brands fa-google brands-2 google-2"></i>
+                  </a>
+                  <a href="#" role="button">
+                    <i class="fa-brands fa-linkedin-in brands-2 linkedin-2"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bg">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-md-12 p-5">
+                <p class="text-secondary">Designed and developed by:
+                  <a href="http://veriweb.com.tr">veriweb</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="assets/front/js/jquery-3.7.0.min.js"></script>
+      <script src="assets/front/js/popper.min.js"></script>
+      <script src="assets/front/js/bootstrap.min.js"></script>
+      <script src="assets/front/js/swiper-bundle.min.js"></script>
+      <script src="assets/front/js/all.min.js"></script>
+      <script src="assets/front/js/script.js"></script>
+    </body>
+    
+    </html>
